@@ -44,7 +44,7 @@ You can customize the following in the server-side file:
 local LAUNDER_PERCENTAGE = 0.85          -- 85% clean return
 local LAUNDER_COOLDOWN = 43200           -- 12-hour cooldown (in seconds)
 
-## 🛠️ Installation
+## Installation
 
 Add the following files to your resource and make sure to include them in your `fxmanifest.lua`:
 
