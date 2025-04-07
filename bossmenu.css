@@ -1,0 +1,95 @@
+/* ╔════════════════════════════════════════════╗
+   ║                WASHING MONEY               ║
+   ╚════════════════════════════════════════════╝ */
+
+   .bossmenu div[data-type="money-laundering"] > div > .side-boxes > .box[data-type="launder-funds"] {
+    position: absolute;
+    width: 60em;
+    height: 11.5em;
+    overflow: hidden;
+    background: var(--submenu-background-selected);
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+.bossmenu div[data-type="money-laundering"] > div > .side-boxes > .box[data-type="launder-funds"] .text {
+    position: absolute;
+    top: 1.2em;
+    left: 1.5em;
+}
+
+.bossmenu div[data-type="money-laundering"] > div > .side-boxes > .box[data-type="launder-funds"] .text .header {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+
+.bossmenu div[data-type="money-laundering"] > div > .side-boxes > .box[data-type="launder-funds"] .text .title {
+    font-size: 1em;
+    color: #aaa;
+}
+
+.bossmenu div[data-type="money-laundering"] > div > .side-boxes > .box[data-type="launder-funds"] .data {
+    position: absolute;
+    top: 5.5em;
+    left: 1.5em;
+}
+
+.bossmenu div[data-type="money-laundering"] > div > .side-boxes > .box[data-type="launder-funds"] .data label {
+    font-size: 1em;
+    margin-right: 0.5em;
+}
+
+.bossmenu div[data-type="money-laundering"] > div > .side-boxes > .box[data-type="launder-funds"] .data input {
+    width: 15em;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    border: none;
+    background: #1e1e1e;
+    color: #fff;
+    font-size: 1em;
+}
+
+.bossmenu div[data-type="money-laundering"] > div > .side-boxes > .box[data-type="launder-funds"] .buttons {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+}
+
+.bossmenu div[data-type="money-laundering"] > div > .side-boxes > .box[data-type="launder-funds"] .buttons .btn {
+    background: var(--main-color);
+    padding: 0.6em 1.5em;
+    border-radius: 0.3em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.bossmenu div[data-type="money-laundering"] > div > .side-boxes > .box[data-type="launder-funds"] .buttons .btn:hover {
+    background: var(--main-color-hover);
+}
+
+.bossmenu div[data-type="money-laundering"] > div > .side-boxes > .box[data-type="launder-funds"] .buttons .btn p {
+    margin: 0;
+    font-weight: bold;
+    color: white;
+}
+.bossmenu.noMoneyLaunderingAccess .side-bar > div[data-href="money-laundering"] {
+    display: none !important;
+}
+
+.progress-container {
+    width: 100%;
+    height: 8px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(to right, #7b2ff7, #f107a3);
+    transition: width 0.1s linear;
+}
